@@ -1,0 +1,44 @@
+.fundo{
+    background-color: rgb(166, 208, 211);
+    }
+
+.alinhar{
+    text-align: center;
+}
+
+#logo{
+    width: 100px;
+}
+
+.navbar{
+    background-color:rgb(133, 136, 136);
+}
+
+#tamanho{
+    height: 500px;
+    width:200px;
+}
+
+#tamanholivro{
+    height: 300px;
+    width:200px;
+}
+
+.images{
+    height: 200px;
+    width:200px;
+}
+
+.margin{
+    margin: 20px;
+}
+
+#acaba2{
+    height: 300px;
+    width:300px;
+}
+
+#comentario{
+    height: 200px;
+    width: 225px;
+}

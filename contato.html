@@ -9,38 +9,48 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
     <title>Sempre Livros</title>
 </head>
 
 <body class="fundo">
     <!-- navbar-->
-    
-        <nav class="navbar navbar-expand-lg navbar-light bg-light margininf">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Sempre Livros</a>
             <img src="livro.png" alt="logo" class="img-fluid" id="logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(Página
-                            atual)</span></a>
-                    <a class="nav-item nav-link" href="./empresa.html">Empresa</a>
-                    <li> 
+
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./empresa.html">Empresa</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="./contato.html">Contato</a>
                     </li>
-                </div>
 
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-primary 2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
             </div>
         </nav>
-        <!-- fim navbar-->
-        <div class="container">
+    </div>
+    <div class="container">
         <!-- formulario-->
         <div class="row" id="formulario">
-            <div class="col">
+            <div class="col-md-6 col-sm-12">
                 <form>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Endereço de email</label>
@@ -62,9 +72,15 @@
                         </label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
+                    <div class="form-group row">
+                        <div class="col-md-12 text-center">
+                            <button type="button" class="btn btn-primary">Enviar</button>
+                            <button type="button" class="btn btn-primary">Apagar</button>
+                        </div>
+                    </div>
                 </form>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-sm-12">
                 <ul>
                     <li>
                         <p>Sempre Livros</p>
@@ -78,12 +94,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <button type="button" class="btn btn-primary">Enviar</button>
-                <button type="button" class="btn btn-primary">Apagar</button>
-            </div>
-        </div>
+
 
         <!--fim formulario-->
 

@@ -1,0 +1,97 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fundo{
+    background-color: rgb(166, 208, 211);
+    }
+
+.alinhar{
+    text-align: center;
+}
+
+#logo{
+    width: 100px;
+}
+
+.navbar{
+    background-color:rgb(133, 136, 136);
+}
+
+#tamanho{
+    height: 500px;
+    width:200px;
+}
+
+.tamanho {
+    width: 100%;
+    max-width: 100%;
+}
+
+#tamanholivro{
+    height: 300px;
+    width:200px;
+}
+
+.images{
+    height: 200px;
+    width:200px;
+}
+
+.margin{
+    margin: 20px;
+}
+
+#acaba2{
+    height: 300px;
+    width:300px;
+}
+
+#comentario{
+    height: 200px;
+    width: 225px;
+}
+
+.card-img-top {
+    margin: auto;
+}
+
+.card-deck {
+    width: 100%;
+    margin: auto;
+}
+
+.img-card-dep {
+    max-height: 185px;
+}
+
+.btn {
+    width: 150px;
+}
+
+
+.nav-item:hover {
+    background-color: blue;
+}
+
+.nav-item:hover .nav-link:hover {
+    color: #fff;
+}
+
+.desc-empresa iframe {
+    width: 100%;
+}
+.desc-empresa ul li {
+    margin: 5px 0;
+}
+
+#formulario {
+    margin-top: 50px;
+}
+
+ul li {
+    list-style: none;
+}
